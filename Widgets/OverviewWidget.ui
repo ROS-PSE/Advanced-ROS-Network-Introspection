@@ -21,11 +21,11 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayoutWidget">
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="horizontalLayoutStatus">
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="statusLightLabel">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>1</horstretch>
@@ -60,7 +60,7 @@
           <string/>
          </property>
          <property name="pixmap">
-          <pixmap>../../Documents/Ampel Zeichen green.png</pixmap>
+          <pixmap>Grafiken/Ampel Zeichen green.png</pixmap>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
@@ -84,7 +84,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit">
+        <widget class="QLineEdit" name="statusTextLineEdit">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -101,22 +101,22 @@
       </layout>
      </item>
      <item>
-      <widget class="QTabWidget" name="tabWidget_2">
+      <widget class="QTabWidget" name="tabWidget">
        <property name="currentIndex">
-        <number>1</number>
+        <number>2</number>
        </property>
-       <widget class="QWidget" name="information">
+       <widget class="QWidget" name="informationTab">
         <attribute name="title">
          <string>Information</string>
         </attribute>
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
-          <widget class="QTextBrowser" name="textBrowser_2">
+          <widget class="QTextBrowser" name="informationtabTextBrowser">
            <property name="html">
             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:7.5pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Incoming Traffic: 10 Mb/s&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Amount of connected nodes: 55&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Amount of connected hosts: 35&lt;/span&gt;&lt;/p&gt;
@@ -128,17 +128,17 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="graphs">
+       <widget class="QWidget" name="graphsTab">
         <attribute name="title">
          <string>Graphs</string>
         </attribute>
         <layout class="QVBoxLayout" name="verticalLayout_4">
          <item>
-          <layout class="QVBoxLayout" name="verticalLayout_3">
+          <layout class="QVBoxLayout" name="verticalLayoutGraphsTab">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <layout class="QHBoxLayout" name="horizontalLayoutRange">
              <item>
-              <widget class="QLabel" name="label_4">
+              <widget class="QLabel" name="rangeLabel">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>1</horstretch>
@@ -151,7 +151,7 @@ p, li { white-space: pre-wrap; }
               </widget>
              </item>
              <item>
-              <widget class="QComboBox" name="comboBox">
+              <widget class="QComboBox" name="rangeComboBox">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
                  <horstretch>2</horstretch>
@@ -189,40 +189,17 @@ p, li { white-space: pre-wrap; }
              </item>
             </layout>
            </item>
-           <item>
-            <widget class="QLabel" name="label_3">
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap>../../Documents/GitHub/Documents/pflichtenheft/gui/Example_matplot.PNG</pixmap>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="label_2">
-             <property name="text">
-              <string/>
-             </property>
-             <property name="pixmap">
-              <pixmap>../../Pictures/Example_matplot.PNG</pixmap>
-             </property>
-             <property name="scaledContents">
-              <bool>true</bool>
-             </property>
-            </widget>
-           </item>
           </layout>
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="log">
+       <widget class="QWidget" name="logTab">
         <attribute name="title">
          <string>Log</string>
         </attribute>
         <layout class="QHBoxLayout" name="horizontalLayout_5">
          <item>
-          <widget class="QTreeWidget" name="treeWidget">
+          <widget class="QTreeWidget" name="logTreeWidget">
            <column>
             <property name="text">
              <string>Typ</string>

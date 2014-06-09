@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>TreeWidget</class>
+ <widget class="QWidget" name="TreeWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -15,21 +15,21 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <layout class="QVBoxLayout" name="verticalLayout">
+    <layout class="QVBoxLayout" name="verticalLayoutWidget">
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout">
+      <layout class="QHBoxLayout" name="horizontalLayoutFilter">
        <item>
-        <widget class="QLabel" name="label">
+        <widget class="QLabel" name="filterLabel">
          <property name="text">
           <string>Filter:</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="lineEdit"/>
+        <widget class="QLineEdit" name="filterLineEdit"/>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="applyButton">
          <property name="text">
           <string>Apply</string>
          </property>
@@ -40,7 +40,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayout_2">
        <item>
-        <widget class="QCheckBox" name="checkBox_2">
+        <widget class="QCheckBox" name="showHostsCheckBox">
          <property name="text">
           <string>Show Hosts</string>
          </property>
@@ -50,7 +50,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkBox">
+        <widget class="QCheckBox" name="showNodesCheckBox">
          <property name="text">
           <string>Show Nodes</string>
          </property>
@@ -60,7 +60,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="checkBox_3">
+        <widget class="QCheckBox" name="erroneousCheckBox">
          <property name="text">
           <string>Only erroneous</string>
          </property>
@@ -80,7 +80,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="plusButton">
          <property name="text">
           <string/>
          </property>
@@ -91,7 +91,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="minusButton">
          <property name="text">
           <string/>
          </property>
@@ -104,7 +104,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QTreeWidget" name="treeWidget">
+      <widget class="QTreeWidget" name="treeWidgetTreeWidget">
        <column>
         <property name="text">
          <string>Type</string>
