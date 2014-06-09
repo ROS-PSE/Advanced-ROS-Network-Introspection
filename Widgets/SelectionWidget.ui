@@ -19,7 +19,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayoutStatus">
        <item>
-        <widget class="QLabel" name="statusLightLabel">
+        <widget class="QLabel" name="status_light_label">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>0</horstretch>
@@ -68,7 +68,7 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayoutLabels">
          <item>
-          <widget class="QLabel" name="hostNodeLabel">
+          <widget class="QLabel" name="host_node_label">
            <property name="font">
             <font>
              <pointsize>14</pointsize>
@@ -80,7 +80,7 @@
           </widget>
          </item>
          <item>
-          <widget class="QLabel" name="currentStatusLabel">
+          <widget class="QLabel" name="current_status_label">
            <property name="font">
             <font>
              <pointsize>11</pointsize>
@@ -96,17 +96,17 @@
       </layout>
      </item>
      <item>
-      <widget class="QTabWidget" name="tabWidget">
+      <widget class="QTabWidget" name="tab_widget">
        <property name="currentIndex">
         <number>3</number>
        </property>
-       <widget class="QWidget" name="informationTab">
+       <widget class="QWidget" name="information_tab">
         <attribute name="title">
          <string>Information</string>
         </attribute>
         <layout class="QVBoxLayout" name="verticalLayout_8">
          <item>
-          <widget class="QTextBrowser" name="informationtabTextBrowser">
+          <widget class="QTextBrowser" name="information_tab_text_browser">
            <property name="html">
             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -124,7 +124,7 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="graphsTab">
+       <widget class="QWidget" name="graphs_tab">
         <attribute name="title">
          <string>Graphs</string>
         </attribute>
@@ -132,7 +132,7 @@ p, li { white-space: pre-wrap; }
          <item>
           <layout class="QHBoxLayout" name="horizontalLayoutRange">
            <item>
-            <widget class="QLabel" name="rangeLabel">
+            <widget class="QLabel" name="range_label">
              <property name="sizePolicy">
               <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                <horstretch>1</horstretch>
@@ -145,7 +145,7 @@ p, li { white-space: pre-wrap; }
             </widget>
            </item>
            <item>
-            <widget class="QComboBox" name="rangeComboBox">
+            <widget class="QComboBox" name="range_combo_box">
              <property name="sizePolicy">
               <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
                <horstretch>2</horstretch>
@@ -185,37 +185,37 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="logTab">
+       <widget class="QWidget" name="log_tab">
         <attribute name="title">
          <string>Log</string>
         </attribute>
         <layout class="QVBoxLayout" name="verticalLayout_7">
          <item>
-          <widget class="QListWidget" name="logTabListWidget"/>
+          <widget class="QListWidget" name="log_tab_list_widget"/>
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="actionsTab">
+       <widget class="QWidget" name="actions_tab">
         <attribute name="title">
          <string>Actions</string>
         </attribute>
         <layout class="QVBoxLayout" name="verticalLayout_2">
          <item>
-          <widget class="QPushButton" name="startButton">
+          <widget class="QPushButton" name="start_push_button">
            <property name="text">
             <string>Start Node</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="stopButton">
+          <widget class="QPushButton" name="stop_push_button">
            <property name="text">
             <string>Stop Node</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="restartButton">
+          <widget class="QPushButton" name="restart_push_button">
            <property name="text">
             <string>Restart Node</string>
            </property>

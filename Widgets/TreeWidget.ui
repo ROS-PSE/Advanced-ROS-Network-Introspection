@@ -19,17 +19,17 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayoutFilter">
        <item>
-        <widget class="QLabel" name="filterLabel">
+        <widget class="QLabel" name="filter_label">
          <property name="text">
           <string>Filter:</string>
          </property>
         </widget>
        </item>
        <item>
-        <widget class="QLineEdit" name="filterLineEdit"/>
+        <widget class="QLineEdit" name="filter_line_Edit"/>
        </item>
        <item>
-        <widget class="QPushButton" name="applyButton">
+        <widget class="QPushButton" name="apply_push_button">
          <property name="text">
           <string>Apply</string>
          </property>
@@ -38,9 +38,9 @@
       </layout>
      </item>
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
        <item>
-        <widget class="QCheckBox" name="showHostsCheckBox">
+        <widget class="QCheckBox" name="show_hosts_check_box">
          <property name="text">
           <string>Show Hosts</string>
          </property>
@@ -50,7 +50,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="showNodesCheckBox">
+        <widget class="QCheckBox" name="show_nodes_check_box">
          <property name="text">
           <string>Show Nodes</string>
          </property>
@@ -60,7 +60,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="erroneousCheckBox">
+        <widget class="QCheckBox" name="erroneous_check_box">
          <property name="text">
           <string>Only erroneous</string>
          </property>
@@ -80,7 +80,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QPushButton" name="plusButton">
+        <widget class="QPushButton" name="plus_push_button">
          <property name="text">
           <string/>
          </property>
@@ -91,7 +91,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="minusButton">
+        <widget class="QPushButton" name="minus_push_button">
          <property name="text">
           <string/>
          </property>
@@ -104,7 +104,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QTreeWidget" name="treeWidgetTreeWidget">
+      <widget class="QTreeWidget" name="treeWidget_tree_widget">
        <column>
         <property name="text">
          <string>Type</string>

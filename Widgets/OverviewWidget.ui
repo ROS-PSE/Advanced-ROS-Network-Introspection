@@ -25,7 +25,7 @@
      <item>
       <layout class="QHBoxLayout" name="horizontalLayoutStatus">
        <item>
-        <widget class="QLabel" name="statusLightLabel">
+        <widget class="QLabel" name="status_light_label">
          <property name="sizePolicy">
           <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
            <horstretch>1</horstretch>
@@ -84,7 +84,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLineEdit" name="statusTextLineEdit">
+        <widget class="QLineEdit" name="status_text_line_edit">
          <property name="font">
           <font>
            <pointsize>12</pointsize>
@@ -105,13 +105,13 @@
        <property name="currentIndex">
         <number>2</number>
        </property>
-       <widget class="QWidget" name="informationTab">
+       <widget class="QWidget" name="information_tab">
         <attribute name="title">
          <string>Information</string>
         </attribute>
         <layout class="QHBoxLayout" name="horizontalLayout_3">
          <item>
-          <widget class="QTextBrowser" name="informationtabTextBrowser">
+          <widget class="QTextBrowser" name="information_tab_text_browser">
            <property name="html">
             <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -128,7 +128,7 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="graphsTab">
+       <widget class="QWidget" name="graphs_tab">
         <attribute name="title">
          <string>Graphs</string>
         </attribute>
@@ -151,7 +151,7 @@ p, li { white-space: pre-wrap; }
               </widget>
              </item>
              <item>
-              <widget class="QComboBox" name="rangeComboBox">
+              <widget class="QComboBox" name="range_combo_box">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
                  <horstretch>2</horstretch>
@@ -193,13 +193,13 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="logTab">
+       <widget class="QWidget" name="log_Tab">
         <attribute name="title">
          <string>Log</string>
         </attribute>
         <layout class="QHBoxLayout" name="horizontalLayout_5">
          <item>
-          <widget class="QTreeWidget" name="logTreeWidget">
+          <widget class="QTreeWidget" name="log_tab_tree_widget">
            <column>
             <property name="text">
              <string>Typ</string>
