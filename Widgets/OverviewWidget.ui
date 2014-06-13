@@ -101,7 +101,7 @@
       </layout>
      </item>
      <item>
-      <widget class="QTabWidget" name="tabWidget">
+      <widget class="QTabWidget" name="tab_widget">
        <property name="currentIndex">
         <number>2</number>
        </property>
@@ -138,7 +138,7 @@ p, li { white-space: pre-wrap; }
            <item>
             <layout class="QHBoxLayout" name="horizontalLayoutRange">
              <item>
-              <widget class="QLabel" name="rangeLabel">
+              <widget class="QLabel" name="range_label">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Minimum" vsizetype="Preferred">
                  <horstretch>1</horstretch>
@@ -193,7 +193,7 @@ p, li { white-space: pre-wrap; }
          </item>
         </layout>
        </widget>
-       <widget class="QWidget" name="log_Tab">
+       <widget class="QWidget" name="log_tab">
         <attribute name="title">
          <string>Log</string>
         </attribute>
