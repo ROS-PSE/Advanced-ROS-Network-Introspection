@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>OverviewWidget</class>
- <widget class="QWidget" name="OverviewWidget">
+ <class>overview_widget</class>
+ <widget class="QWidget" name="overview_widget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -21,9 +21,9 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout_2">
    <item>
-    <layout class="QVBoxLayout" name="verticalLayoutWidget">
+    <layout class="QVBoxLayout" name="widget_vertical_layout">
      <item>
-      <layout class="QHBoxLayout" name="horizontalLayoutStatus">
+      <layout class="QHBoxLayout" name="status_horizontal_layout">
        <item>
         <widget class="QLabel" name="status_light_label">
          <property name="sizePolicy">
@@ -68,7 +68,7 @@
         </widget>
        </item>
        <item>
-        <spacer name="horizontalSpacer">
+        <spacer name="horizontal_spacer">
          <property name="orientation">
           <enum>Qt::Horizontal</enum>
          </property>
@@ -103,7 +103,7 @@
      <item>
       <widget class="QTabWidget" name="tab_widget">
        <property name="currentIndex">
-        <number>2</number>
+        <number>1</number>
        </property>
        <widget class="QWidget" name="information_tab">
         <attribute name="title">
@@ -134,9 +134,9 @@ p, li { white-space: pre-wrap; }
         </attribute>
         <layout class="QVBoxLayout" name="verticalLayout_4">
          <item>
-          <layout class="QVBoxLayout" name="verticalLayoutGraphsTab">
+          <layout class="QVBoxLayout" name="graphs_tab_vertical_layout">
            <item>
-            <layout class="QHBoxLayout" name="horizontalLayoutRange">
+            <layout class="QHBoxLayout" name="range_horizontal_layout">
              <item>
               <widget class="QLabel" name="range_label">
                <property name="sizePolicy">
